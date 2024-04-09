@@ -1,11 +1,5 @@
 package gerenciamento.usuarios.atividade_1;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-
 public class TrocaSenhaBean {
 
   private String username;
