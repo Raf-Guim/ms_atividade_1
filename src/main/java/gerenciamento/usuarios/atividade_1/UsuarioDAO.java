@@ -4,7 +4,7 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface UsuarioDAO extends CrudRepository<UsuarioBean, String> {
+public interface UsuarioDAO extends CrudRepository<UsuarioBean, Integer> {
 
     // sempre inicia com findBy...
     // incluir nome do atributo
